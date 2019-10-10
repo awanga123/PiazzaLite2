@@ -59,7 +59,7 @@ app.use('/api', apiRouter)
 
 // don't put any routes below here!
 app.use(function(err, _, res) {
-  return res.send('ERROR :  ' + err.message)
+  //return res.send('ERROR :  ' + err.message)
 })
 
 app.listen(process.env.PORT || 3000, function() {
