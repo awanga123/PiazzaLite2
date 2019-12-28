@@ -61,7 +61,7 @@ $(document).ready(function() {
     for (var i = 0; i < data.length; i++) {
       var counter = data[i]
       var id = counter._id
-      if (id === _id) {
+      if (id =  == _id) {
         activeIdx = i
       }
     }
